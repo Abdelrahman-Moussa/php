@@ -1,0 +1,75 @@
+<?php
+/*
+echo phpinfo();
+*/
+?>
+
+<?php
+/*
+define ("WEBSITE_NAME","Abdelrahman_website");
+echo WEBSITE_NAME;
+*/
+?>
+
+<?php
+/*
+//echo "<pre>";
+//print_r($_SERVER);
+//echo "</pre>";
+print_r($_SERVER['SERVER_NAME']);
+echo "<br>";
+print_r($_SERVER['SERVER_ADDR']);
+echo "<br>";
+print_r($_SERVER['SERVER_PORT']);
+echo "<br>";
+echo __FILE__;
+echo "<br>";
+echo __DIR__;
+*/
+?>
+
+<?php
+/*
+$age = 25;
+switch($age){
+    case ($age < 5) :
+        echo "stay at home";
+        break;
+    case ($age <6 && $age >= 5 ) :
+        echo "go to kg";
+        break;
+    case ($age >= 6 && $age < 12 ) :
+        echo "go to grade ".($age-6);
+        break;
+    default :
+        echo "Congratulations kbrt ya wad";
+}
+*/
+?>
+
+<?php
+/*
+$a = 0;
+$b = 0;
+for( $i = 0; $i<5; $i++ ) {
+   $a += 10;
+   $b += 5;
+}
+echo $a;
+echo $b;
+*/
+?>
+
+<?php
+/*
+$i = 0;
+$num = 50;
+while( $i < 10) {
+   $num--;
+   $i++;
+}
+echo $i."<br>";
+echo $num;
+*/
+?>
+
